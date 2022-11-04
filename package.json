@@ -1,0 +1,37 @@
+{
+  "name": "alarmas_monitoreadas",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon app.js",
+    "start":"node app.js"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gpaul-dev/proyecto_base_node.git"
+  },
+  "author": "SolucioneSCN S.A.S.",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.2",
+    "cookie-parser": "^1.4.6",
+    "ejs": "^3.1.6",
+    "express": "^4.17.3",
+    "express-basic-auth": "^1.2.1",
+    "express-session": "^1.17.2",
+    "helmet": "^5.0.2",
+    "method-override": "^3.0.0",
+    "moment": "^2.29.2",
+    "mysql2": "^2.3.3",
+    "nodemon": "^2.0.15",
+    "sequelize": "^6.17.0",
+    "sequelize-cli": "^6.4.1",
+    "sweetalert2": "^11.4.8"
+  },
+  "bugs": {
+    "url": "https://github.com/gpaul-dev/proyecto_base_node/issues"
+  },
+  "homepage": "https://github.com/gpaul-dev/proyecto_base_node#readme"
+}
